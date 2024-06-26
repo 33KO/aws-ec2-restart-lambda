@@ -60,6 +60,3 @@ This file contains the main Terraform configuration.
 
 This file contains the Sumo Logic query to detect high response times.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
