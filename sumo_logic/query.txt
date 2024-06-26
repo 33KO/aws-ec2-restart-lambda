@@ -1,0 +1,5 @@
+_sourceCategory=your_source_category
+| json field=_raw "response_time", "endpoint"
+| where endpoint = "/api/data" and response_time > 3000
+| count by _timeslice=1m
+| where _count > 5
